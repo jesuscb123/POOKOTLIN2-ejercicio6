@@ -14,6 +14,7 @@ class repositorioCompras() {
         return domicilios
     }
 
+
     fun mostrarDomicilios(){
         for(compra in listaCompras){
             println("${compra.cliente.nombre}, ${compra.dia}, ${compra.monto}, ${compra.cliente.domicilio.dirCompleta()} ")
